@@ -1,8 +1,19 @@
-这个仓库记录我的每日所学。
-文件名格式为 `yyyy-mm-dd_topic.md` 原则是...名字里没有空白和特殊字符。允许出现中文。
+# TIL
 
-以短小的tech note 类型文章为主，主要来源是我问的问题。
-我尽量一个session只问一个问题。当这个session结束时，如果我提示 /record 那就针对当前的问题和答案写一篇新 tech note。
+Today I Learned — tech notes distilled from daily work. Each note captures one non-obvious insight that would save someone time.
 
+## Structure
 
+```
+notes/<yyyy-mm>/<yyyy-mm-dd>_<topic>.md
+```
 
+One file per topic. No spaces or special characters in filenames.
+
+## How Notes Get Written
+
+Most notes originate from a Q&A session. At the end of a session, `/record` turns the conversation into a self-contained article — no context needed to read it later.
+
+## Topics
+
+AWS, Ansible, SSH, tooling, automation — whatever comes up during the week.
